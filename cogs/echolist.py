@@ -62,7 +62,7 @@ class PaginationButton(Button):
         await view.update_message(interaction.message)
         await interaction.response.defer()
 
-class SonataEffectsCog(commands.Cog):
+class EchoList(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
 
@@ -74,7 +74,7 @@ class SonataEffectsCog(commands.Cog):
             app_commands.Choice(name="Sonata Effect", value="sonataeffect"),
         ]
     )
-    async def sonataeffects(self, interaction: discord.Interaction, sort_by: str = "sonataeffect"):
+    async def echolist(self, interaction: discord.Interaction, sort_by: str = "sonataeffect"):
         try:
             sorted_data = sort_echoes(sort_by)
             pages = []
@@ -156,4 +156,4 @@ class SonataEffectsCog(commands.Cog):
             await interaction.response.send_message(f"An error occurred: {e}")
 
 async def setup(bot: commands.Bot):
-    await bot.add_cog(SonataEffectsCog(bot))
+    await bot.add_cog(EchoList(bot))
