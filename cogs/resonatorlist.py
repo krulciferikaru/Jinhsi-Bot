@@ -13,6 +13,10 @@ def sort_resonators(by):
             if sort_key not in sorted_data:
                 sorted_data[sort_key] = []
             sorted_data[sort_key].append(key)
+            
+    for key in sorted_data:
+        sorted_data[key].sort(key=lambda x: x[0])
+
     return sorted_data
 
 def chunk_list(lst, chunk_size):

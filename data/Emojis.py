@@ -116,6 +116,7 @@ Emojis = {
         'Mourning Aix': '<:MourningAix:1253790884818976960>',
         'Tempest Memphis': '<:TempestMemphis:1253790887146819716>',
         'Thundering Memphis': '<:ThunderingMemphis:1253790889235447820>',
+        'Fallacy of No Return': '<:FallacyofNoReturn:1287323993615106099>'
     },
     '1★': {
         'broadblade': {
@@ -190,28 +191,32 @@ Emojis = {
             'Broadblade41': '<:Broadblade41:1265601341934407700>',
             'Dauntless Evernight': '<:DauntlessEvernight:1265601350213963830>',
             'Discord': '<:Discord:1265601352537735178>',
-            'Helios Cleaver': '<:HeliosCleaver:1265601362520047656>'
+            'Helios Cleaver': '<:HeliosCleaver:1265601362520047656>',
+            'Waning Redshift': '<:WaningRedshift:1287322649063718922>'
         },
         'gauntlet': {
             'Amity Accord': '<:AmityAccord:1265479289126649906>',
             'Gauntlets21D': '<:Gauntlets21D:1265601354664120330>',
             'Hollow Mirage': '<:HollowMirage:1265601364302762106>',
             'Marcato': '<:Marcato:1265601373911912458>',
-            'Stonard': '<:Stonard:1265601832672301106>'
+            'Stonard': '<:Stonard:1265601832672301106>',
+            'Celestial Spiral': '<:CelestialSpiral:1287322641925144629>'
         },
         'pistols': {
             'Cadenza': '<:Cadenza:1265601343674908735>',
             'Novaburst': '<:Novaburst:1265601375904075857>',
             'Pistols26': '<:Pistols26:1265601378399551511>',
             'Thunderbolt': '<:Thunderbolt:1265601836224741418>',
-            'Undying Flame': '<:UndyingFlame:1265601837969707124>'
+            'Undying Flame': '<:UndyingFlame:1265601837969707124>',
+            'Relativistic Jet': '<:RelativisticJet:1287322645117009962>'
         },
         'rectifier': {
             'Augment': '<:Augment:1265479292733755464>',
             'Comet Flare': '<:CometFlare:1265601345302564895>',
             'Jinzhou Keeper': '<:JinzhouKeeper:1265601367091974205>',
             'Rectifier25': '<:Rectifier25:1265601380693970944>',
-            'Variation': '<:Variation:1265601844391182389>'
+            'Variation': '<:Variation:1265601844391182389>',
+            'Fusion Accretion': '<:FusionAccretion:1287322651118796810>'
         },
         'sword': {
             'Commando of Conviction': '<:CommandoofConviction:1265601348376854560>',
@@ -219,6 +224,7 @@ Emojis = {
             'Lunar Cutter': '<:LunarCutter:1265601371588263999>',
             'Scale Slasher': '<:ScaleSlasher:1265601830918815845>',
             'Sword18': '<:Sword18:1265601834597482506>',
+            'Endless Collapse': '<:EndlessCollapse:1287322646995800105> '
         },
     },
     '5★': {
@@ -237,7 +243,8 @@ Emojis = {
         'rectifier': {
             'Cosmic Ripples': '<:CosmicRipples:1265601903501508689>',
             'Stringmaster': '<:Stringmaster:1265601913370447945>',
-            'Rime-Draped Sprouts': '<:RimeDrapedSprouts:1280957112520020059>'
+            'Rime-Draped Sprouts': '<:RimeDrapedSprouts:1280957112520020059>',
+            'Stellar Symphony': '<:StellarSymphony:1287322640205352993>'
         },
         'sword': {
             'Blazing Brilliance': '<:BlazingBrilliance:1265601901739773992>',
@@ -266,6 +273,8 @@ Emojis = {
         'Yangyang': '<:Yangyang:1278346029917409321>',
         'Yinlin': '<:Yinlin:1278346031792128173>',
         'Yuanwu': '<:Yuanwu:1278346034237673575>',
-        'Zhezhi': '<:Zhezhi:1278346036267716719>'
+        'Zhezhi': '<:Zhezhi:1278346036267716719>',
+        'Shorekeeper': '<:Shorekeeper:1287087459460579338> ',
+        'Youhu': '<:Youhu:1287087462778405008>'
     }
 }

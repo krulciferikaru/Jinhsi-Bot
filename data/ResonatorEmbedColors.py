@@ -73,6 +73,12 @@ resonatorEmbedColors = {
     },
     'Zhezhi': {
         'color': 'GlacioColor'
+    },
+    'Shorekeeper': {
+        'color': 'SpectroColor'
+    },
+    'Youhu': {
+        'color': 'GlacioColor'
     }
 }
 

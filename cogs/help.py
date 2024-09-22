@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-import asyncio
 
 class HelpCog(commands.Cog):
     def __init__(self, bot):
@@ -32,7 +31,6 @@ class HelpCog(commands.Cog):
                 else:
                     embed = discord.Embed(title="Error", description="Invalid selection.", color=0xff0000)
                 
-                # Update the message with the new embed and keep the view
                 await interaction.response.edit_message(embed=embed, view=self.view)
 
     @staticmethod
@@ -44,7 +42,7 @@ class HelpCog(commands.Cog):
                                      'Use the dropdown menu to view other commands by category\n', inline=False)
         emb.add_field(name='Changelog', value='```Added Zhezhi Build\nAdded Zhezhi & Xiangli Yao Weapon```', inline=False)
 
-        emb.set_footer(text='Made by krulciferr', icon_url='https://cdn.discordapp.com/avatars/651246582150201345/00c44c51ef208cff88b625c3bc4d6cf6.png?size=4096')
+        emb.set_footer(text='Made by krulciferr', icon_url='https://cdn.discordapp.com/avatars/651246582150201345/a_27e3065e2f155a601a267c9e75a5f682.gif?size=1024')
         emb.set_author(name="Jinhsi Bot#1616", icon_url="https://cdn.discordapp.com/avatars/1252690441896460389/93f3c99d8711c7dadca8e1526492ea91.png?size=1024")
         return emb
 
@@ -58,7 +56,7 @@ class HelpCog(commands.Cog):
         emb.add_field(name='**/resonatorlist**', value='List of all resonators.', inline=False)
         emb.add_field(name='**/echolist**', value='List of all echoes.', inline=False)
         emb.add_field(name='**/weaponlist**', value='Lists of all weapons.', inline=False)
-        emb.set_footer(text='Made by krulciferr', icon_url='https://cdn.discordapp.com/avatars/651246582150201345/00c44c51ef208cff88b625c3bc4d6cf6.png?size=4096')
+        emb.set_footer(text='Made by krulciferr', icon_url='https://cdn.discordapp.com/avatars/651246582150201345/a_27e3065e2f155a601a267c9e75a5f682.gif?size=1024')
         emb.set_author(name="Jinhsi Bot#1616", icon_url="https://cdn.discordapp.com/avatars/1252690441896460389/93f3c99d8711c7dadca8e1526492ea91.png?size=1024")
         return emb
 
@@ -66,7 +64,7 @@ class HelpCog(commands.Cog):
     async def help(self, interaction: discord.Interaction):
         embed = self.embedMainPage()
         view = self.HelpView()
-        # Ensure message is saved correctly
+
         message = await interaction.response.send_message(embed=embed, view=view)
         self.bot.loop.create_task(self.removeDropdown(message))
 

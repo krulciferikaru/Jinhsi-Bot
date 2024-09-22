@@ -179,6 +179,21 @@ weaponInfo = {
                     'stats': '**30.38%**'
                 }
             },
+            'Waning Redshift': {
+                'star': '4★',
+                'description': 'Casting the Resonance Skill grants **6/7/8/9/10** Resonance Energy and increases ATK by **10%/12.5%/15%/17.5%/20%**, lasting for 16s. '
+                               'This effect can be triggered once every 20s.',
+                'atk': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK',
+                    'stats': '**463**',
+                },
+                'mainstat': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK%',
+                    'stats': '**18.2%**'
+                }
+            },
             'Ages of Harvest': {
                 'star': '5★',
                 'description': "Gain **12%/15%/18%/21%/24%** Attribute DMG Bonus. "
@@ -390,6 +405,21 @@ weaponInfo = {
                     'stats': '**20.2%**'
                 }
             },
+            'Celestial Spiral': {
+                'star': '4★',
+                'description': 'Casting the Resonance Skill grants **6/7/8/9/10** Resonance Energy and increases ATK by **10%/12.5%/15%/17.5%/20%**, lasting for 16s. '
+                               'This effect can be triggered once every 20s.',
+                'atk': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK',
+                    'stats': '**463**',
+                },
+                'mainstat': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK%',
+                    'stats': '**18.2%**'
+                }
+            },
             'Abyss Surges': {
                 'star': '5★',
                 'description': 'Increases Energy Regen by **12.8%/16%/19.2%/22.4%/25.6%**. '
@@ -583,6 +613,21 @@ weaponInfo = {
                     'stats': '**30.3%**'
                 }
             },
+            'Relativistic Jet': {
+                'star': '4★',
+                'description': 'Casting the Resonance Skill grants **6/7/8/9/10** Resonance Energy and increases ATK by **10%/12.5%/15%/17.5%/20%**, lasting for 16s. '
+                               'This effect can be triggered once every 20s.',
+                'atk': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK',
+                    'stats': '**463**',
+                },
+                'mainstat': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK%',
+                    'stats': '**18.2%**'
+                }
+            },
             'Static Mist': {
                 'star': '5★',
                 'description': "Increases Energy Regen by **12.8%/16%/19.2%/22.4%/25.6%**. "
@@ -762,6 +807,21 @@ weaponInfo = {
                     'stats': '**51.8%**'
                 }
             },
+            'Fusion Accretion': {
+                'star': '4★',
+                'description': 'Casting the Resonance Skill grants **6/7/8/9/10** Resonance Energy and increases ATK by **10%/12.5%/15%/17.5%/20%**, lasting for 16s. '
+                               'This effect can be triggered once every 20s.',
+                'atk': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK',
+                    'stats': '**463**',
+                },
+                'mainstat': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK%',
+                    'stats': '**18.2%**'
+                }
+            },
             'Cosmic Ripples': {
                 'star': '5★',
                 'description': "Increases Energy Regen by **12.8%/16%/19.2%/22.4%/25.6%**. "
@@ -796,7 +856,10 @@ weaponInfo = {
             },
             'Rime-Draped Sprouts': {
                 'star': '5★',
-                'description': 'Increases ATK by **12%/15%/18%/21%/24%**. Using Resonance Skill gives the equipped Resonator **12%/15%/18%/21%/24%** Basic Attack DMG Bonus for 6s, stacking up to 3 times. When casting Outro Skill with 3 stacks, consume all stacks to give **52%/65%/78%/91%/104%** Resonance DMG Bonus to the off-field Basic Attacks performed by the equipped Resonator, lasting for 27s.',
+                'description': "Increases ATK by **12%/15%/18%/21%/24%**. "
+                               "Using Resonance Skill gives the equipped Resonator **12%/15%/18%/21%/24%** Basic Attack DMG Bonus for 6s, stacking up to 3 times. "
+                               "When casting Outro Skill with 3 stacks, consume all stacks to give **52%/65%/78%/91%/104%** Resonance DMG Bonus to the off-field "
+                               "Basic Attacks performed by the equipped Resonator, lasting for 27s.",
                 'atk': {
                     'icon': Emojis['StatIcons']['atk'], 
                     'title': 'ATK',
@@ -808,6 +871,23 @@ weaponInfo = {
                     'stats': '**72%**'
                 }
             }, 
+            'Stellar Symphony': {
+                'star': '5★',
+                'description': "Inceases HP by **12%/15%/18%/21%/24%**. Restore **8/10/12/14/16** Concerto Energy when casting Resonance Liberation. "
+                               "This effect can be triggered 1 time(s) every 20s. "
+                               "When casting Resonance Skill that heals, increase nearby party members' ATK by **14%/17.5%/21%/24.5%/28%** for 30s. "
+                               "Effects of the same name cannot be stacked.",
+                'atk': {
+                'icon': Emojis['StatIcons']['atk'],
+                'title': 'ATK',
+                'stats': '**413**',
+                },
+                'mainstat': {
+                'icon': Emojis['StatIcons']['energyregen'],
+                'title': 'Energy Regen',
+                'stats': '**77%**'
+                }
+            },
         }
     },
     'Sword': {
@@ -956,7 +1036,7 @@ weaponInfo = {
                     'title': 'Energy Regen',
                     'stats': '**51.8%**'
                 }
-            },
+                },
             'Sword18': {
                 'star': '4★',
                 'description': "When Equipped Resonator's HP drops below **40%/50%/60%/70%/80%**, "
@@ -972,6 +1052,21 @@ weaponInfo = {
                     'title': 'ATK%',
                     'stats': '**36.4%**'
                 }
+            },
+            'Endless Collapse': {
+                'star': '4★',
+                'description': 'Casting the Resonance Skill grants **6/7/8/9/10** Resonance Energy and increases ATK by **10%/12.5%/15%/17.5%/20%**, lasting for 16s. '
+                               'This effect can be triggered once every 20s.',
+                'atk': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK',
+                    'stats': '**463**',
+                },
+                'mainstat': {
+                    'icon': Emojis['StatIcons']['atk'],
+                    'title': 'ATK%',
+                    'stats': '**18.2%**'
+                }, 
             },
             'Blazing Brilliance': {
                 'star': '5★',
@@ -1004,7 +1099,8 @@ weaponInfo = {
                     'title': 'CRIT RATE',
                     'stats': '**24.3%**'
                 }
-            }
+
+                }
         }
     }
 }

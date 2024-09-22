@@ -287,6 +287,10 @@ echoInfo = {
         },
     },
     'Rejuvenating Glow': {
+        'Fallacy of No Return': {
+            'class': 'Calamity',
+            'cost': '4',
+        },
         'Bell-Borne Geochelone': {
             'class': 'Calamity',
             'cost': '4',

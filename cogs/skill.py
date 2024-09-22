@@ -55,7 +55,7 @@ class ResonatorSkills(commands.Cog):
             skills = self.resonatorSkills[resonator]
             emojis = self.resonatorSkillsEmoji.get(resonator, {})
             color_key = resonatorEmbedColors.get(resonator, {}).get('color', 'defaultColor')
-            embed_color = EmbedColors.get(color_key, 0x000000)  # Default color if not found
+            embed_color = EmbedColors.get(color_key)  
 
             if skill == "All":
                 categories = {
@@ -76,7 +76,7 @@ class ResonatorSkills(commands.Cog):
 
                 embed = discord.Embed(
                     title=f"{elementEmoji}  {weaponEmoji}  {starEmoji}  {default_category}",
-                    description="\n".join(
+                    description="\n\n".join(
                         f"{emojis.get(skill, '❓')} **{skills[skill]['name']} - {skill}**\n{skills[skill]['description']}"
                         for skill in skills_list if skill in skills
                     ),
@@ -167,7 +167,7 @@ class ResonatorSkills(commands.Cog):
 
                         embed = discord.Embed(
                             title=f"{elementEmoji}  {weaponEmoji}  {starEmoji}  {selected_category}",
-                            description="\n".join(
+                            description="\n\n".join(
                                 f"{emojis.get(skill, '❓')} **{skills[skill]['name']} - {skill}**\n{skills[skill]['description']}"
                                 for skill in skills_list if skill in skills
                             ),

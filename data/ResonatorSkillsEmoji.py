@@ -351,5 +351,52 @@ resonatorSkillsEmoji = {
         'Sequence 5': '<:ZhezhiSequence5:1278384029481177211>',
         'Sequence 6': '<:ZhezhiSequence6:1278384031968399451>',
         'Basic Attack': '<:ZhezhiBasicAttack:1279285483809275977>'
+    },
+    'Shorekeeper': {
+        'Forte Circuit': '<:ShorekeeperForteCircuit:1287086401640202250>',
+        'Inherent Skill 1': '<:ShorekeeperInherentSkill1:1287086403859251302>',
+        'Inherent Skill 2': '<:ShorekeeperInherentSkill2:1287086406250008708>',
+        'Intro Skill': '<:ShorekeeperIntroSkill:1287086408481243197>',
+        'Outro Skill': '<:ShorekeeperOutroSkill:1287086410477600980>',
+        'Resonance Liberation': '<:ShorekeeperResonanceLiberation:1287086412734140548>',
+        'Resonance Skill': '<:ShorekeeperResonanceSkill:1287086414801932372>',
+        'Sequence 1': '<:ShorekeeperSequence1:1287086416769192051>',
+        'Sequence 2': '<:ShorekeeperSequence2:1287086418967003180>',
+        'Sequence 3': '<:ShorekeeperSequence3:1287086421051707464>',
+        'Sequence 4': '<:ShorekeeperSequence4:1287086423454781543>',
+        'Sequence 5': '<:ShorekeeperSequence5:1287086425405394964>',
+        'Sequence 6': '<:ShorekeeperSequence6:1287086396728807505>',
+        'Basic Attack': '<:ShorekeeperBasicAttack:1287086399224283177> '
+    },
+    'Youhu': {
+        'Forte Circuit': '<:YouhuForteCircuit:1287087185777922078>',
+        'Inherent Skill 1': '<:YouhuInherentSkill1:1287087188055425044>',
+        'Inherent Skill 2': '<:YouhuInherentSkill2:1287087189905113149>',
+        'Intro Skill': '<:YouhuIntroSkill:1287087192916885645>',
+        'Outro Skill': '<:YouhuOutroSkill:1287087194749800468>',
+        'Resonance Liberation': '<:YouhuResonanceLiberation:1287087196964257843>',
+        'Resonance Skill': '<:YouhuResonanceSkill:1287087199266799636>',
+        'Sequence 1': '<:YouhuSequence1:1287087201481396295>',
+        'Sequence 2': '<:YouhuSequence2:1287087203331080224>',
+        'Sequence 3': '<:YouhuSequence3:1287087206112038953>',
+        'Sequence 4': '<:YouhuSequence4:1287087209060765832>',
+        'Sequence 5': '<:YouhuSequence5:1287087211275092109>',
+        'Sequence 6': '<:YouhuSequence6:1287087213489950883>',
+        'Basic Attack': '<:YouhuBasicAttack:1287087183693611008>'
     }
 }
+
+"""'Forte Circuit': '',
+        'Inherent Skill 1': '',
+        'Inherent Skill 2': '',
+        'Intro Skill': '',
+        'Outro Skill': '',
+        'Resonance Liberation': '',
+        'Resonance Skill': '',
+        'Sequence 1': '',
+        'Sequence 2': '',
+        'Sequence 3': '',
+        'Sequence 4': '',
+        'Sequence 5': '',
+        'Sequence 6': '',
+        'Basic Attack': '' """

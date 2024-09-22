@@ -13,6 +13,10 @@ def sort_echoes(by):
             if sort_key not in sorted_data:
                 sorted_data[sort_key] = []
             sorted_data[sort_key].append((name, effect, attributes))
+        
+    for key in sorted_data:
+        sorted_data[key].sort(key=lambda x: x[0])
+
     return sorted_data
 
 def chunk_list(lst, chunk_size):
@@ -62,7 +66,7 @@ class PaginationButton(Button):
         await view.update_message(interaction.message)
         await interaction.response.defer()
 
-class EchoList(commands.Cog):
+class SonataEffectsCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
 
@@ -74,7 +78,7 @@ class EchoList(commands.Cog):
             app_commands.Choice(name="Sonata Effect", value="sonataeffect"),
         ]
     )
-    async def echolist(self, interaction: discord.Interaction, sort_by: str = "sonataeffect"):
+    async def sonataeffects(self, interaction: discord.Interaction, sort_by: str = "sonataeffect"):
         try:
             sorted_data = sort_echoes(sort_by)
             pages = []
@@ -108,7 +112,7 @@ class EchoList(commands.Cog):
                     for chunk in chunks:
                         description = "\n".join(
                             f"`[{attributes['cost']}]` {Emojis.get(f'{attributes['cost']}Cost', {}).get(name, '')} `{name}`"
-                            for name, attributes in chunk
+                            for name, effect, attributes in chunk
                         )
 
                         icon = Emojis['Icons'].get(f"Cost{key}", "")
@@ -131,7 +135,7 @@ class EchoList(commands.Cog):
                     for chunk in chunks:
                         description = "\n".join(
                             f"`[{attributes['cost']}]` {Emojis.get(f'{attributes['cost']}Cost', {}).get(name, '')} `{name}`"
-                            for name, attributes in chunk
+                            for name, effect, attributes in chunk
                         )
                         icon = Emojis['Icons'].get("ClassIcon", "")
                         title = f"{icon} {key}"
@@ -156,4 +160,4 @@ class EchoList(commands.Cog):
             await interaction.response.send_message(f"An error occurred: {e}")
 
 async def setup(bot: commands.Bot):
-    await bot.add_cog(EchoList(bot))
+    await bot.add_cog(SonataEffectsCog(bot))

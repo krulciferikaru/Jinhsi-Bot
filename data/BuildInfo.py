@@ -27,7 +27,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (30-40% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             },
             'Sierra Gale': {
                 'echo_set': f"{Emojis['SonataEffects']['Sierra Gale']} Sierra Gale X5",
@@ -45,7 +45,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (30-40% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             }
         }
     },
@@ -72,7 +72,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['hp']} `HP%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) > HP% > Flat HP'
+                'sub_stats_priority': 'Energy Regen (15-30% Minimum) > HP% > Flat HP'
             }
         }
     },
@@ -82,7 +82,7 @@ buildInfo = {
         'color': 'ElectroColor',
         'star': '5star',
         'options': [
-            {'emoji': Emojis['SonataEffects']['Void Thunder'], 'label': 'Void Thunder', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Void Thunder'], 'label': 'Void Thunder', 'description': '[4/3/3/1/1] Main DPS Build'},
             {'emoji': Emojis['SonataEffects']['Void Thunder'], 'label': 'Alternative Void Thunder', 'description': '[4/4/1/1/1] Alternative Main DPS Build'},
         ],
         'details': {
@@ -102,7 +102,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = `CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
+                'sub_stats_priority': 'Energy Regen (10-20% Minimum) >= CRIT RATE = `CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
             },
             'Alternative Void Thunder': {
                 'echo_set': f"{Emojis['SonataEffects']['Void Thunder']} Void Thunder X5",
@@ -118,7 +118,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
+                'sub_stats_priority': 'Energy Regen (10-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
             }
         }
     },
@@ -147,7 +147,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Resonance Skill DMG%'
+                'sub_stats_priority': 'Energy Regen (10-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Resonance Skill DMG%'
             }
         }
     },
@@ -176,7 +176,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (35-45% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             }
         }
     },
@@ -186,7 +186,7 @@ buildInfo = {
         'color': 'HavocColor',
         'star': '4star',
         'options': [
-            {'emoji': f'{Emojis['SonataEffects']['Sun-sinking Eclipse']}','label': 'Sun-sinking Eclipse', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+            {'emoji': f'{Emojis['SonataEffects']['Sun-sinking Eclipse']}','label': 'Sun-sinking Eclipse', 'description': '[4/3/3/1/1] Main DPS Build'},
             
             {'emoji': f'{Emojis['SonataEffects']['Sun-sinking Eclipse']}','label': 'Alternative Sun-sinking Eclipse', 'description': '[4/4/1/1/1] Alternative Main DPS Build'},
         ],
@@ -253,7 +253,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Basic DMG%'
+                'sub_stats_priority': 'Energy Regen (15-25% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Basic DMG%'
             }
         }
     },
@@ -284,7 +284,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (30-40% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             },
             'Rejuvenating Glow': {
                 'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
@@ -300,7 +300,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%'
+                'sub_stats_priority': 'Energy Regen (30-40% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%'
             },
             'Sierra Gale': {
                 'echo_set': f"{Emojis['SonataEffects']['Sierra Gale']} Sierra Gale X5",
@@ -318,7 +318,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%'
+                'sub_stats_priority': 'Energy Regen (30-40% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Heavy DMG% > Liberation DMG%'
             }
         }
     },
@@ -328,7 +328,7 @@ buildInfo = {
         'color': 'SpectroColor',
         'star': '5star',
         'options': [
-            {'emoji': Emojis['SonataEffects']['Celestial Light'], 'label': 'Celestial Light', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Celestial Light'], 'label': 'Celestial Light', 'description': '[4/3/3/1/1] Main DPS Build'},
             {'emoji': Emojis['SonataEffects']['Celestial Light'], 'label': 'Alternative Celestial Light', 'description': '[4/4/1/1/1] Alternative Main DPS Build'}
         ],
         'details': {
@@ -348,7 +348,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Resonance Skill DMG% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (0-35% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Resonance Skill DMG% > Flat ATK'
             },
             'Alternative Celestial Light': {
                 'echo_set': f"{Emojis['SonataEffects']['Celestial Light']} Celestial Light X5",
@@ -364,7 +364,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Resonance Skill DMG% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (0-35% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Resonance Skill DMG% > Flat ATK'
             }   
         }
     },
@@ -374,7 +374,7 @@ buildInfo = {
         'color': 'AeroColor',
         'star': '5star',
         'options': [
-            {'emoji': Emojis['SonataEffects']['Sierra Gale'], 'label': 'Sierra Gale', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Sierra Gale'], 'label': 'Sierra Gale', 'description': '[4/3/3/1/1] Main DPS Build'},
         ],
         'details': {
                 'Sierra Gale': {
@@ -393,7 +393,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Heavy DMG%'
+                'sub_stats_priority': 'Energy Regen (25-40% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Heavy DMG%'
             }
         }
     },
@@ -403,7 +403,7 @@ buildInfo = {
         'color': 'GlacioColor',
         'star': '5star',
         'options': [
-            {'emoji': Emojis['SonataEffects']['Freezing Frost'], 'label': 'Freezing Frost', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Freezing Frost'], 'label': 'Freezing Frost', 'description': '[4/3/3/1/1] Main DPS Build'},
         ],
         'details': {
                 'Freezing Frost': {
@@ -422,7 +422,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (10-25% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             }
         }
     },
@@ -450,7 +450,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (20-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             }
         } 
     },
@@ -466,7 +466,7 @@ buildInfo = {
                 'element': 'havoc',
                 'color': 'HavocColor',
                 'options': [
-                    {'emoji': Emojis['SonataEffects']['Sun-sinking Eclipse'],'label': 'Sun-sinking Eclipse', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+                    {'emoji': Emojis['SonataEffects']['Sun-sinking Eclipse'],'label': 'Sun-sinking Eclipse', 'description': '[4/3/3/1/1] Main DPS Build'},
                     {'emoji': Emojis['SonataEffects']['Sun-sinking Eclipse'],'label': 'Alternative Sun-sinking Eclipse', 'description': '[4/4/1/1/1] Alternative Main DPS Build'}
                 ],
             'details': {
@@ -486,7 +486,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (0-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             },
             'Alternative Sun-sinking Eclipse': {
                 'echo_set': f"{Emojis['SonataEffects']['Sun-sinking Eclipse']} Sun-sinking Eclipse X5",
@@ -502,7 +502,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (0-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
                     }
                 }
             },
@@ -510,13 +510,13 @@ buildInfo = {
                 'element': 'spectro',
                 'color': 'SpectroColor',
                 'options': [
-                    {'emoji': Emojis['SonataEffects']['Celestial Light'], 'label': 'Celestial Light', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+                    {'emoji': Emojis['SonataEffects']['Celestial Light'], 'label': 'Celestial Light', 'description': '[4/3/3/1/1] Main DPS Build'},
                     {'emoji': Emojis['SonataEffects']['Celestial Light'], 'label': 'Alternative Celestial Light', 'description': '[4/4/1/1/1] Alternative Main DPS Build'}
                 ],
                 'details': {
                     'Celestial Light': {
                         'echo_set': f"{Emojis['SonataEffects']['Celestial Light']} Celestial Light X5",
-                        'main_echo': f"{Emojis['4Cost']['Mourning Aix']} Mourning Aix",
+                        'main_echo': f"{Emojis['4Cost']['Jue']} Jue",
                         'main_stats': [
                             f"{Emojis['StatIcons']['critrate']} `CRIT RATE`",
                             f"{Emojis['StatIcons']['critdmg']} `CRIT DMG`"
@@ -530,15 +530,15 @@ buildInfo = {
                         'sub_stats2': [
                             f"{Emojis['StatIcons']['atk']} `ATK%`"
                         ],
-                        'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                        'sub_stats_priority': 'Energy Regen (0-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             },
                     'Alternative Celestial Light': {
                         'echo_set': f"{Emojis['SonataEffects']['Celestial Light']} Celestial Light X5",
-                        'main_echo': f"{Emojis['4Cost']['Mourning Aix']} Mourning Aix",
+                        'main_echo': [f"{Emojis['4Cost']['Jue']} Jue"],
                         'main_stats': [
                             f"{Emojis['StatIcons']['critrate']} `CRIT RATE`",
                         ],
-                        'sub_echo1': [f"{Emojis['4Cost']['Jue']} Jue"],
+                        'sub_echo1': f"{Emojis['4Cost']['Mourning Aix']} Mourning Aix",
                         'sub_stats1': [
                             f"{Emojis['StatIcons']['critdmg']} `CRIT DMG`"
                         ],
@@ -546,7 +546,7 @@ buildInfo = {
                         'sub_stats2': [
                             f"{Emojis['StatIcons']['atk']} `ATK%`"
                         ],
-                        'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > > Resonance Skill DMG% > Flat ATK'
+                        'sub_stats_priority': 'Energy Regen (0-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > > Resonance Skill DMG% > Flat ATK'
                     }
                 }
             }
@@ -577,7 +577,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (0-20% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             }
         } 
     },
@@ -607,7 +607,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['def']} `DEF%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
+                'sub_stats_priority': 'Energy Regen (30-60% Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
             },
             'Rejuvenating Glow': {
                 'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
@@ -624,7 +624,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['def']} `DEF%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
+                'sub_stats_priority': 'Energy Regen (30-60% Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
             }
         }
     },
@@ -651,7 +651,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (70-100% Minimum) > ATK% > Flat ATK'
             }
         }
     },
@@ -661,26 +661,64 @@ buildInfo = {
         'color': 'ElectroColor',
         'star': '5star',
         'options': [
-            {'emoji': Emojis['SonataEffects']['Void Thunder'], 'label': 'Void Thunder', 'description': '[4/3/3/1/1] Best Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Void Thunder'], 'label': 'Void Thunder', 'description': '[4/3/3/1/1] Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Void Thunder'], 'label': 'Alternative Void Thunder', 'description': '[4/3/3/1/1] Alternative Main DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Lingering Tunes'], 'label': 'Lingering Tunes', 'description': '[4/3/3/1/1] Main DPS Build'},
         ],
         'details': {
             'Void Thunder': {
                 'echo_set': f"{Emojis['SonataEffects']['Void Thunder']} Void Thunder X5",
-                'main_echo': f"{Emojis['4Cost']['Tempest Memphis']} Placeholder",
+                'main_echo': f"{Emojis['4Cost']['Thundering Memphis']} Thundering Memphis",
                 'main_stats': [
-                    f"{Emojis['StatIcons']['critrate']} Placeholder",
-                    f"{Emojis['StatIcons']['critdmg']} Placeholder"
+                    f"{Emojis['StatIcons']['critrate']} `CRIT RATE`",
+                    f"{Emojis['StatIcons']['critdmg']} `CRIT DMG`"
                 ],
-                'sub_echo1': ['Placeholder'],
+                'sub_echo1': 'Any Cost 3 Echo X2',
                 'sub_stats1': [
-                    f"{Emojis['StatIcons']['electrodmg']} Placeholder",
-                    f"{Emojis['StatIcons']['atk']} Placeholder"
+                    f"{Emojis['StatIcons']['electrodmg']} `Electro DMG`",
+                    f"{Emojis['StatIcons']['atk']} `ATK`"
                 ],
-                'sub_echo2': ['Placeholder'],
+                'sub_echo2': 'Any Cost 3 Echo X2',
                 'sub_stats2': [
-                    f"{Emojis['StatIcons']['atk']} Placeholder"
+                    f"{Emojis['StatIcons']['atk']} `ATK`"
                 ],
-                'sub_stats_priority': 'Placeholder'
+                'sub_stats_priority': 'Energy Regen (0-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
+            },
+            'Alternative Void Thunder': {
+                'echo_set': f"{Emojis['SonataEffects']['Void Thunder']} Void Thunder X5",
+                'main_echo': f"{Emojis['4Cost']['Tempest Memphis']} Tempest Memphis",
+                'main_stats': [
+                    f"{Emojis['StatIcons']['critrate']} `CRIT RATE`",
+                    f"{Emojis['StatIcons']['critdmg']} `CRIT DMG`"
+                ],
+                'sub_echo1': 'Any Cost 3 Echo X2',
+                'sub_stats1': [
+                    f"{Emojis['StatIcons']['electrodmg']} `Electro DMG`",
+                    f"{Emojis['StatIcons']['atk']} `ATK`"
+                ],
+                'sub_echo2': 'Any Cost 3 Echo X2',
+                'sub_stats2': [
+                    f"{Emojis['StatIcons']['atk']} `ATK`"
+                ],
+                'sub_stats_priority': 'Energy Regen (0-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
+            },
+            'Lingering Tunes': {
+                'echo_set': f"{Emojis['SonataEffects']['Lingering Tunes']} Lingering Tunes X5",
+                'main_echo': f"{Emojis['4Cost']['Mech Abomination']} Mech Abomination",
+                'main_stats': [
+                    f"{Emojis['StatIcons']['critrate']} `CRIT RATE`",
+                    f"{Emojis['StatIcons']['critdmg']} `CRIT DMG`"
+                ],
+                'sub_echo1': 'Any Cost 3 Echo X2',
+                'sub_stats1': [
+                    f"{Emojis['StatIcons']['electrodmg']} `Electro DMG`",
+                    f"{Emojis['StatIcons']['atk']} `ATK`"
+                ],
+                'sub_echo2': 'Any Cost 3 Echo X2',
+                'sub_stats2': [
+                    f"{Emojis['StatIcons']['atk']} `ATK`"
+                ],
+                'sub_stats_priority': 'Energy Regen (0-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK = Liberation DMG%'
             }
         }
     },     
@@ -710,7 +748,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Liberation DMG% > Basic DMG%'
+                'sub_stats_priority': 'Energy Regen (0-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Liberation DMG% > Basic DMG%'
             },
             'Rejuvenating Glow': {
                 'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
@@ -726,7 +764,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Liberation DMG% > Basic DMG%'
+                'sub_stats_priority': 'Energy Regen (0-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK > Liberation DMG% > Basic DMG%'
             }
         }
     },
@@ -756,7 +794,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (20-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             },
             'Void Thunder': {
                 'echo_set': f"{Emojis['SonataEffects']['Void Thunder']} Void Thunder X5",
@@ -774,7 +812,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (20-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             },
             'Alternative Void Thunder': {
                 'echo_set': f"{Emojis['SonataEffects']['Void Thunder']} Void Thunder X5",
@@ -790,7 +828,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
+                'sub_stats_priority': 'Energy Regen (20-30% Minimum) >= CRIT RATE = CRIT DMG > ATK% > Flat ATK'
             }
         }
     },
@@ -820,7 +858,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['def']} `DEF%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
+                'sub_stats_priority': 'Energy Regen (25-35% Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
             },
             'Rejuvenating Glow': {
                 'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
@@ -837,7 +875,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['def']} `DEF%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
+                'sub_stats_priority': 'Energy Regen (25-35% Minimum) >= CRIT RATE = CRIT DMG > DEF% > Flat DEF'
             }
         }
     },
@@ -866,7 +904,7 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`",
                 ],
-                'sub_stats_priority': '`Energy Regen (Minimum) > CRIT RATE = CRIT DMG > Basic ATK DMG% = ATK% > Flat ATK`'
+                'sub_stats_priority': '`Energy Regen (15-35% Minimum) > CRIT RATE = CRIT DMG > Basic ATK DMG% = ATK% > Flat ATK`'
             },
             'Moonlit Clouds': {
                 'echo_set': f"{Emojis['SonataEffects']['Moonlit Clouds']} Moonlit Clouds X5",
@@ -883,8 +921,37 @@ buildInfo = {
                 'sub_stats2': [
                     f"{Emojis['StatIcons']['atk']} `ATK%`",
                 ],
-                'sub_stats_priority': '`Energy Regen (Minimum) > CRIT RATE = CRIT DMG > Basic ATK DMG% = ATK% > Flat ATK`'
+                'sub_stats_priority': '`Energy Regen (15-35% Minimum) > CRIT RATE = CRIT DMG > Basic ATK DMG% = ATK% > Flat ATK`'
             }
         }
     },
+    'Shorekeeper': {
+        'weapon': 'rectifier',
+        'element': 'spectro',
+        'color': 'SpectroColor',
+        'star': '5star',
+        'options': [
+            {'emoji': Emojis['SonataEffects']['Freezing Frost'], 'label': 'Rejuvenating Glow', 'description': '[4/3/3/1/1] Support Build'},
+            {'emoji': Emojis['SonataEffects']['Moonlit Clouds'], 'label': 'Moonlit Clouds', 'description': '[4/3/3/1/1] Sub DPS Build'},
+        ],
+        'details': {
+            'Rejuvenating Glow': {
+                'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
+                'main_echo': f"{Emojis['4Cost']['Lampylumen Myriad']} Lampylumen Myriad",
+                'main_stats': [
+                    f"{Emojis['StatIcons']['healingbonus']} `Healing Bonus`",
+                ],
+                'sub_echo1': 'Any Cost 3 Echo X2',
+                'sub_stats1': [
+                    f"{Emojis['StatIcons']['energyregen']} `Energy Regen`",
+                    f"{Emojis['StatIcons']['def']} `DEF%`"
+                ],
+                'sub_echo2': 'Any Cost 1 Echo X2',
+                'sub_stats2': [
+                    f"{Emojis['StatIcons']['def']} `HP%`"
+                ],
+                'sub_stats_priority': 'Energy Regen (150% Minimum) >= CRIT RATE = CRIT DMG > HP% > Flat HP'
+            }
+        }
+    }
 }

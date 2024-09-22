@@ -534,5 +534,15 @@ echoInfo = {
         'Description': "Transform into Thundering Mephis, engaging in a rapid assault of up to **6** strikes. "
                        "The first 5 strikes deal **132.61%** Electro DMG each, while the final strike inflicts **189.44%** Electro DMG, with an additional **31.57%** Electro DMG from the thunder. "
                        "After the final hit, increase the current character's Electro DMG by **12.00%** and Resonance Liberation DMG by **12.00%** for **15s**."
-    }
+    },
+    'Fallacy of No Return': {
+        'Cost': '4',
+        'Class': 'Calamity',
+        'CD': '20s',
+        'SonataEffects': [f"{Emojis['SonataEffects']['Rejuvenating Glow']}"],
+        'Description': "Activate the Echo Skill to summon a fraction of the Fallacy of No Return's power and deal a blast to the surrounding area, "
+                       "inflicting Spectro DMG equal to **9.91%** of max HP, after which the Resonator gains **10%** bonus Energy Regen and all team members **10%** bonus ATK for **20s**.\n"
+                        "Hold Echo Skill to unleash a series of flurry assaults at the cost of STA, each dealing Spectro DMG equal to **0.99%** of max HP; "
+                        "Release to end the assail in a powerful blow, dealing Spectro DMG equal to **12.39%** of max HP."
+    },
 }

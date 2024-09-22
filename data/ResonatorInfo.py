@@ -111,5 +111,15 @@ resonatorInfo = {
         'element': Emojis['ElementType']['glacio'],
         'star': '5★',
     },
+    'Shorekeeper': {
+        'weapon': Emojis['WeaponType']['rectifier'],
+        'element': Emojis['ElementType']['spectro'],
+        'star': '5★',
+    },
+    'Youhu': {
+        'weapon': Emojis['WeaponType']['gauntlet'],
+        'element': Emojis['ElementType']['glacio'],
+        'star': '4★',
+    }
 }
 
