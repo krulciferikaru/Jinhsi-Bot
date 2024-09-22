@@ -943,13 +943,12 @@ buildInfo = {
                 'sub_echo1': 'Any Cost 3 Echo X2',
                 'sub_stats1': [
                     f"{Emojis['StatIcons']['energyregen']} `Energy Regen`",
-                    f"{Emojis['StatIcons']['def']} `DEF%`"
                 ],
                 'sub_echo2': 'Any Cost 1 Echo X2',
                 'sub_stats2': [
-                    f"{Emojis['StatIcons']['def']} `HP%`"
+                    f"{Emojis['StatIcons']['hp']} `HP%`"
                 ],
-                'sub_stats_priority': 'Energy Regen (150% Minimum) >= CRIT RATE = CRIT DMG > HP% > Flat HP'
+                'sub_stats_priority': 'Energy Regen (150% Minimum) >= HP% > Flat HP'
             }
         }
     }
