@@ -931,13 +931,12 @@ buildInfo = {
         'color': 'SpectroColor',
         'star': '5star',
         'options': [
-            {'emoji': Emojis['SonataEffects']['Freezing Frost'], 'label': 'Rejuvenating Glow', 'description': '[4/3/3/1/1] Support Build'},
-            {'emoji': Emojis['SonataEffects']['Moonlit Clouds'], 'label': 'Moonlit Clouds', 'description': '[4/3/3/1/1] Sub DPS Build'},
+            {'emoji': Emojis['SonataEffects']['Rejuvenating Glow'], 'label': 'Rejuvenating Glow', 'description': '[4/3/3/1/1] Support Build'},
         ],
         'details': {
             'Rejuvenating Glow': {
                 'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
-                'main_echo': f"{Emojis['4Cost']['Lampylumen Myriad']} Lampylumen Myriad",
+                'main_echo': f"{Emojis['4Cost']['Fallacy of No Return']} Fallacy of No Return",
                 'main_stats': [
                     f"{Emojis['StatIcons']['healingbonus']} `Healing Bonus`",
                 ],
