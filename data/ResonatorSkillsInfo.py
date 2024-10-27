@@ -2076,11 +2076,11 @@ Youhu can hold up to four Auspices.
 
 **Poetic Essence**
 Deal Glacio DMG to enemies within the range and additionally obtain one of the following effects based on the Auspice combination:
-- Free Verse: Four different types Auspices. Additionally reduce the Vibration Strength of hit enemies.
-- Antithesis: A pair of Auspices. Increase Poetic Essence's DMG by **70%**.
-- Double Pun: Two pairs of Auspices. Additionally restore HP for all nearby party members.
-- Triplet: Three identical Auspices. Increase Poetic Essence's DMG by **175%**.
-- Perfect Rhyme: Four identical Auspices. Simultaneously activate the effects of Free Verse, Double Pun, and Triplet at the same time.
+- **Free Verse**: Four different types Auspices. Additionally reduce the Vibration Strength of hit enemies.
+- **Antithesis**: A pair of Auspices. Increase Poetic Essence's DMG by **70%**.
+- **Double Pun**: Two pairs of Auspices. Additionally restore HP for all nearby party members.
+- **Triplet**: Three identical Auspices. Increase Poetic Essence's DMG by **175%**.
+- **Perfect Rhyme**: Four identical Auspices. Simultaneously activate the effects of Free Verse, Double Pun, and Triplet at the same time.
 Casting Poetic Essence removes all Auspices.
 
 **Auspice**

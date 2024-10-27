@@ -952,5 +952,33 @@ buildInfo = {
                 'sub_stats_priority': 'Energy Regen (150% Minimum) >= CRIT RATE = CRIT DMG > HP% > Flat HP'
             }
         }
+    },
+    'Youhu': {
+        'weapon': 'gauntlet',
+        'element': 'glacio',
+        'color': 'GlacioColor',
+                'star': '4star',
+        'options': [
+            {'emoji': Emojis['SonataEffects']['Rejuvenating Glow'], 'label': 'Rejuvenating Glow', 'description': '[4/3/3/1/1] Support Build'},
+        ],
+        'details': {
+            'Rejuvenating Glow': {
+                'echo_set': f"{Emojis['SonataEffects']['Rejuvenating Glow']} Rejuvenating Glow X5",
+                'main_echo': {f"{Emojis['4Cost']['Fallacy of No Return']} Fallacy of No Return", f"{Emojis['4Cost']['Bell-Borne Geochelone']} Bell-Borne Geochelone"},
+                'main_stats': [
+                    f"{Emojis['StatIcons']['healingbonus']} `Healing Bonus`",
+                ],
+                'sub_echo1': 'Any Cost 3 Echo X2',
+                'sub_stats1': [
+                    f"{Emojis['StatIcons']['energyregen']} `Energy Regen`",
+                    f"{Emojis['StatIcons']['atk']} `ATK%`"
+                ],
+                'sub_echo2': 'Any Cost 1 Echo X2',
+                'sub_stats2': [
+                    f"{Emojis['StatIcons']['atk']} `ATK%`"
+                ],
+                'sub_stats_priority': 'Energy Regen (50-60% Minimum) = ATK% > Flat ATK'
+            }
+        }
     }
 }

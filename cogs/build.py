@@ -48,9 +48,9 @@ class ResonatorBuild(commands.Cog):
             details = buildInfo[resonator]['details'][build_name]
             color = EmbedColors.get(buildInfo[resonator]['color'])
             emb_title = (
-                f"{Emojis['ElementType'][buildInfo[resonator]['element']]}  "
-                f"{Emojis['WeaponType'][buildInfo[resonator]['weapon']]}  "
-                f"{ResonatorStar[buildInfo[resonator]['star']]}  "
+                f"{Emojis['ElementType'][buildInfo[resonator]['element']]} "
+                f"{Emojis['WeaponType'][buildInfo[resonator]['weapon']]} "
+                f"{ResonatorStar[buildInfo[resonator]['star']]} "
                 f"{resonator}"
             )
         else:
@@ -60,9 +60,9 @@ class ResonatorBuild(commands.Cog):
             details = buildInfo['Rover']['details'][resonator]['details'][build_name]
             color = EmbedColors.get(buildInfo['Rover']['details'][resonator]['color'])
             emb_title = (
-                f"{Emojis['ElementType'][buildInfo['Rover']['details'][resonator]['element']]}  "
-                f"{Emojis['WeaponType'][buildInfo['Rover']['weapon']]}  "
-                f"{ResonatorStar['5star']}  "
+                f"{Emojis['ElementType'][buildInfo['Rover']['details'][resonator]['element']]} "
+                f"{Emojis['WeaponType'][buildInfo['Rover']['weapon']]} "
+                f"{ResonatorStar['5star']} "
                 f"Rover - {resonator.capitalize()}"
             )
 
